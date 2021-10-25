@@ -10,7 +10,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -26,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-TO BE ADDED
+![Group 1](https://user-images.githubusercontent.com/24487667/138728262-74d59bec-614b-4bb5-a483-f230bd9b3489.png)
 
 ### Links
 
@@ -43,8 +42,6 @@ TO BE ADDED
 - CSS Grid
 - Mobile-first workflow
 - BEM Methodology
-
-### What I learned
 
 ### Continued development
 
