@@ -1,11 +1,22 @@
+.cards-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 2rem;
+}
+
 .card {
   box-sizing: border-box;
   width: 100%;
   height: fit-content;
   border-radius: var(--border-radius);
 
+  color: var(--color-very-dark-blackish-blue);
+
   padding: 3rem;
 
+  box-shadow: 1rem 2rem 4rem 0.5rem var(--shadow);
   background-color: var(--color-white);
 }
 
@@ -29,14 +40,43 @@
   align-self: center;
 
   border: 2px solid var(--color-white);
+  background-color: var(--color-white);
 }
 
 .card__name {
   grid-area: 1 / 2 / 2 / 3;
   align-self: end;
+
+  font-size: 1.5rem;
 }
 
 .card__status {
   grid-area: 2 / 2 / 3 / 3;
   align-self: start;
+  opacity: 0.5;
+}
+
+.card__testimonial {
+  font-size: 2rem;
+  font-weight: var(--font-weight-medium);
+}
+
+.card__review-paragraph {
+  opacity: 0.7;
+  line-height: 1.8rem;
+}
+
+.card--violet {
+  background-color: var(--color-moderate-violet);
+  color: var(--color-white);
+}
+
+.card--very-dark-grayish-blue {
+  background-color: var(--color-very-dark-grayish-blue);
+  color: var(--color-white);
+}
+
+.card--very-dark-blackish-blue {
+  background-color: var(--color-very-dark-blackish-blue);
+  color: var(--color-white);
 }
