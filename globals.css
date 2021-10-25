@@ -13,6 +13,7 @@ html {
   min-height: 100%;
   font-size: var(--font-size);
   font-family: var(--font-family-main);
+  background-color: var(--color-light-grayish-blue);
 }
 
 html, body {
@@ -22,9 +23,10 @@ html, body {
 body {
   height: 100vh;
   font-size: 1.3rem;
+  overflow: auto;
 }
 
 .attribution {
-  margin: 40px;
+  margin-top: 2rem;
   text-align: center;
 }
