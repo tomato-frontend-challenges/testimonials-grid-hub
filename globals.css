@@ -10,21 +10,21 @@
 }
 
 html {
+  min-height: 100%;
   font-size: var(--font-size);
   font-family: var(--font-family-main);
 }
 
 html, body {
-  min-height: 100%;
   width: 100%;
 }
 
 body {
+  height: 100vh;
   font-size: 1.3rem;
 }
 
 .attribution {
-  font-size: 1.5rem;
-  margin: 4rem;
+  margin: 40px;
   text-align: center;
 }
