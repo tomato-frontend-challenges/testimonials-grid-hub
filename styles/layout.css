@@ -1,0 +1,6 @@
+.main {
+  box-sizing: border-box;
+  padding: 2.5rem 0.25rem 2.5rem 0.25rem;
+
+  background-color: var(--color-light-grayish-blue);
+}

@@ -1,0 +1,42 @@
+.card {
+  box-sizing: border-box;
+  width: 100%;
+  height: fit-content;
+  border-radius: var(--border-radius);
+
+  padding: 3rem;
+
+  background-color: var(--color-white);
+}
+
+.card > * + * {
+  margin-top: 1.5rem;
+}
+
+.card__profile-container {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1.6rem;
+}
+
+.card__picture {
+  height: auto;
+  width: 4rem;
+  border-radius: 100%;
+
+  grid-area: 1 / 1 / 3 / 2;
+  align-self: center;
+
+  border: 2px solid var(--color-white);
+}
+
+.card__name {
+  grid-area: 1 / 2 / 2 / 3;
+  align-self: end;
+}
+
+.card__status {
+  grid-area: 2 / 2 / 3 / 3;
+  align-self: start;
+}
